@@ -1,0 +1,8 @@
+1. Create table in Dynamo DB
+2. Create IAM Role
+3. Create API Gateways for login/register/verfication
+4. Create API Keys
+   i. Go to API Keys section and create
+   ii. Create Usage Plans
+   iii. Make API key required for all APIS
+4. Create Lambda Functions
