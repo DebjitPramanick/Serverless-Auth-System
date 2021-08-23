@@ -4,8 +4,12 @@ import Header from './Header'
 import TextField from './TextField'
 import "./styles.css"
 import Message from './Message'
+import {useHistory, Link} from 'react-router-dom'
 
 const Form = (props) => {
+
+    const history = useHistory()
+    const path = history.location.pathname.split('/')[1]
 
     return (
         <div className="form-container">
@@ -20,6 +24,11 @@ const Form = (props) => {
             ))}
             <Button label={props.buttonLabel}
             onClick={props.action} />
+            <Link 
+            className='helper-text'
+            to={`${path!=='login' ? '/login' : '/register'}`}>
+                {path==='login' ? 'Create Account' : 'Log In'}
+            </Link>
         </div>
     )
 }

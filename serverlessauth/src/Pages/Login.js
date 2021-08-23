@@ -8,8 +8,6 @@ const Login = () => {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
     const [message, setMessage] = useState(null)
-    // const [name, setName] = useState('')
-    // const [email, setEmail] = useState('')
 
     const userLogin = async () => {
         console.log(username, password)

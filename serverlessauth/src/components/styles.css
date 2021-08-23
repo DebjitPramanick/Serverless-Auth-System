@@ -56,3 +56,10 @@
 .msg-box p.green{
     color: #7fffb0;
 }
+
+.helper-text{
+    display: block;
+    text-decoration: none;
+    color: #a190ff;
+    margin-top: 18px;
+}
