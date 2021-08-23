@@ -2,7 +2,7 @@
 
 Demo
 <br/>
-<img src="./s/ss1.png" alt=""/>
+<img src="./ss/ss1.png" alt=""/>
 <br>
 <img src="./ss/ss2.png" alt=""/>
 <br>
