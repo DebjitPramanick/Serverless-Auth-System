@@ -1,9 +1,10 @@
 import React from 'react'
+import "./styles.css"
 
-const Message = () => {
+const Message = (props) => {
     return (
-        <div>
-            <p>Message</p>
+        <div className="msg-box">
+            <p className={`${props.code < 400 ? 'green' : ''}`}>{props.msg}</p>
         </div>
     )
 }

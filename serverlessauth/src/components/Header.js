@@ -1,9 +1,10 @@
 import React from 'react'
+import "./styles.css"
 
-const Header = () => {
+const Header = (props) => {
     return (
-        <div>
-            <h1>Log In</h1>
+        <div className="form-header">
+            <h1>{props.text}</h1>
         </div>
     )
 }
